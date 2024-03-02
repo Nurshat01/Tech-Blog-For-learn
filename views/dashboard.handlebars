@@ -1,0 +1,10 @@
+<section id="dashboard" class="dashboard-section">
+
+    <a href="/dashboard/create" class="new-post">🚀 Create New Post</a>
+
+    <div class="dashboard-content">
+        {{#each blogs}}
+            {{> postboardItem}}
+        {{/each}}
+    </div>
+</section>
